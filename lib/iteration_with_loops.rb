@@ -9,7 +9,7 @@ def join_nested_strings(src)
       while element_index < src[row_index].count do
         if src[row_index][element_index].class == String 
           single_string << src[row_index][element_index]
-          
+          single_string
         end 
         element_index += 1 
       end 
